@@ -14,11 +14,11 @@
 
 <body>
     <header>
-        <img class="img-fluid" src="img/html5.png" alt="logo html5">
+        <img class="img" src="img/html5.png" alt="logo html5">
 
         <h1 id="titulo">Presaberes UNAD - 2022: <br> HTML5 y CSS3</h1>
 
-        <img class="img-fluid" src="img/css3.png" alt="logo css3">
+        <img class="img" src="img/css3.png" alt="logo css3">
     </header>
 
     <nav>
@@ -54,14 +54,115 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Alfreds Futterkiste</td>
-                        <td>Maria Anders</td>
-                        <td>  <img class="img-fluid" src="img/html5.png" alt="logo html5"> </td>
+                        <td> &lt header &gt </td>
+                        <td> Señala un grupo de elementos de introducción de una sección o documento. <br>
+                             Normalmente se usa para incluir los encabezados ( &lth1> – &lth6> o &lthgroup> ) </td>
+                        <td>
+                            &ltheader> <br>
+                            &emsp; &lth1>  Aquí agregas el título &lt/h1> <br>
+                            &lt/header> <br>
+                        </td>
                     </tr>
                     <tr>
-                        <td>Centro comercial Moctezuma</td>
-                        <td>Francisco Chang</td>
-                        <td>Mexico</td>
+                        <td> &lt nav &gt </td>
+                        <td> Esta etiqueta representa el menú de navegación de la página. Por lo general, va a
+                            acompañada
+                            por las etiquetas &lt ul &gt y &lt li &gt.
+                        </td>
+                        <td>
+                            &ltnav> <br>
+                            &emsp; &ltul> <br>
+                            &emsp;&emsp;&emsp; &lt li> &lta href="#"> Principal &lt/a> &lt/li> <br>
+                            &emsp;&emsp;&emsp; &lt li> &lta href="#"> Tabla html5 &lt/a> &lt/li> <br>
+                            &emsp;&emsp;&emsp; &lt li> &lta href="#"> Tabla CSS3 &lt/a> &lt/li> <br>
+                            &emsp;&emsp;&emsp; &lt li> &lta href="#"> Universidad &lt/a> &lt/li> <br>
+                            &emsp; &lt/ul> <br>
+                            &lt/nav> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> &ltp&gt </td>
+                        <td>Define una parte que debe mostrarse como un párrafo.</td>
+                        <td>
+                            &ltp> <br>
+                            &emsp; Aquí va el contenido del párrafo...etc. <br>
+                            &lt/p> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> &lt article &gt </td>
+                        <td>Declara un contenido que es independiente de cualquier otras secciones.</td>
+                        <td>
+                            &lt article> <br>
+                            &emsp; Agrega el texto para blog, periódico, etc. <br>
+                            &lt/ article> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> &lt h1 &gt <br> &lt h2 &gt <br> &lt h3 &gt ...<br> &lt h6 &gt</td>
+                        <td> Sirve para implementar seis niveles de encabezado del documento, &lt h1> es el más importante, y &lt h6> , el menos importante.</td>
+                        <td>
+                            &lt h1> <br>
+                            &emsp; Escribe el título principal. <br>
+                            &lt/ h1> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> &lt aside &gt </td>
+                        <td> Representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento.</td>
+                        <td>
+                            &lt aside> <br>
+                            &emsp; Por ejemplo, coloca en esta sección publicidad a tu página. <br>
+                            &lt/ aside> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> &lt figure &gt </td>
+                        <td> De uso específico para insertar figuras o imágenes, con sus atributos. </td>
+                        <td>
+                            &lt figure> <br>
+                            &emsp; &lt img class="img-fluid" src="img/css3.png" alt="logo css3">. <br>
+                            &lt/ figure> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> &lt footer &gt </td>
+                        <td> De uso específico para insertar figuras o imágenes, con sus atributos. </td>
+                        <td>
+                            &lt footer> <br>
+                            &emsp;  
+                            <strong>
+                                &emsp;     Fecha publicación: 28/08/2022 <br>
+                                &emsp;     Autor: velquiez <br>
+                                &emsp;     Programación de sitios web - UNAD
+                            </strong>. <br>
+                            &lt/ footer> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> &lt section &gt </td>
+                        <td>  Representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema. </td>
+                        <td>
+                            &lt section> <br>
+                            &emsp; Agrega contenido diverso. <br>
+                            &lt/ section> <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> &lt table &gt </td>
+                        <td>  De uso específico para generar tabla. Va acompañado de &lt tr &gt para filas y &lt td &gt para las columnas. </td>
+                        <td>
+                            &lt table> <br>
+                            &emsp; &lt tr> <br>
+                                &emsp;&emsp;  &lt th> Nombres &lt /th> <br>
+                                &emsp;&emsp;   &lt th> Apellidos &lt /th> <br>
+                            &emsp;  &lt/tr> <br>
+                            &emsp;  &lttr> <br>
+                                &emsp;&emsp; &lt td> Augusto &lt/td> <br>
+                                &emsp;&emsp;  &lt td> Esquivel &lt/td> <br>
+                            &emsp;  &lt/tr> <br>
+                            &lt/ table> <br>
+                        </td>
                     </tr>
                 </tbody>
 
@@ -70,8 +171,6 @@
             <br>
 
         </section>
-
-
     </main>
 
     <footer>

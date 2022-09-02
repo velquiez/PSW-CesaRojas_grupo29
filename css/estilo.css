@@ -1,20 +1,26 @@
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
     background-color: gray;
     padding: 10px;
+    display: grid;
+    margin: 0.2cm 3cm;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #titulo {
-    grid-column: 2/5;
-    color: blue;
+    color:rgba(15, 19, 112, 0.8);
+   
+    grid-column: 2/4;
+}
+.img{
+    margin: 0cm 3cm;
 }
 
 main {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 
 aside {
@@ -48,7 +54,13 @@ table {
 
 td:first-child{
     height: auto;
-    width: 40px;
+    width: 100px;
+}
+
+td:last-child{
+    height: auto;
+    width: 500px;
+    text-align: justify;
 }
 
 td, th {
@@ -58,7 +70,8 @@ td, th {
 }
 
 tbody tr:nth-child(2n) {
-    background-color: #86eb9a;
+    background-color: rgba(76, 217, 179, 0.8);
+    color:rgb(15, 3, 88);
 }
 tbody tr:nth-child(2n+1) {
     background-color: #3cb0ef;
