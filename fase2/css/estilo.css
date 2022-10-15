@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+    background-color: #F4FCD9;
+    padding: 40px;
+}
+
+.navegador{
+    background-color: #1e1c1c;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#menu{
+    grid-column: 2/5;
+}
+
+.container-inicio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px;    
+}
+
+.carrusel-inicio{
+      grid-column: 2/5;
+      text-align: center;
+}
+
+.carousel-inner{
+    text-align: center;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    background-color: #282120;
+    padding: 15px;
+}
